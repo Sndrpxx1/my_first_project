@@ -3,7 +3,7 @@ from pas import gen_pass  # Импортируем функцию из bot_logic
 
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("8112631224:AAHM_tmE_GB0hLGK-4RpGYgRLDR4mwffRgc")
+bot = telebot.TeleBot("Token")
 
 # Эта функция запускается, когда кто-то отправляет команду /start
 @bot.message_handler(commands=['start'])
